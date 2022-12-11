@@ -8,7 +8,7 @@ require 'contrib/rsync.php';
 
 // Config
 
-set('repository', 'https://github.com/maulana-alamsyah/CAPSTONE-PROJECT.git');
+set('repository', 'git@github.com:maulana-alamsyah/CAPSTONE-PROJECT.git');
 set('application', 'CAPSTONE-PROJECT');
 set('ssh_multiplexing', true);  // Speed up deployment
 
