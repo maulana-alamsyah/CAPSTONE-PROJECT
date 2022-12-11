@@ -90,7 +90,7 @@ Route::get('/team', function () {
 });
 
 
-Route::get('umum_tampilrsud_kab_brebes', [RSUDKabBrebesController::class, 'umum_tampilrsud_kab_brebes'])->name('tampilrsud_kab_brebes')->middleware('guest');
-Route::get('umum_tampilrsud_kota_tegal', [RSUDKotaTegalController::class, 'umum_tampilrsud_kota_tegal'])->name('tampilrsud_kota_tegal')->middleware('guest');
-Route::get('umum_tampilrs_bhakti_asih', [RSBhaktiAsihController::class, 'umum_tampilrs_bhakti_asih'])->name('tampilrs_bhakti_asih')->middleware('guest');
-Route::get('umum_tampilrsud_kab_tegal', [RSUDKabTegalController::class, 'umum_tampilrsud_kab_tegal'])->name('tampilrsud_kab_tegal')->middleware('guest');
+Route::get('umum_tampilrsud_kab_brebes', [RSUDKabBrebesController::class, 'umum_tampilrsud_kab_brebes'])->name('umum_tampilrsud_kab_brebes')->middleware('guest');
+Route::get('umum_tampilrsud_kota_tegal', [RSUDKotaTegalController::class, 'umum_tampilrsud_kota_tegal'])->name('umum_tampilrsud_kota_tegal')->middleware('guest');
+Route::get('umum_tampilrs_bhakti_asih', [RSBhaktiAsihController::class, 'umum_tampilrs_bhakti_asih'])->name('umum_tampilrs_bhakti_asih')->middleware('guest');
+Route::get('umum_tampilrsud_kab_tegal', [RSUDKabTegalController::class, 'umum_tampilrsud_kab_tegal'])->name('umum_tampilrsud_kab_tegal')->middleware('guest');
