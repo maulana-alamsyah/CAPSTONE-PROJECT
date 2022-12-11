@@ -6,6 +6,7 @@ require 'recipe/laravel.php';
 
 // Config
 set('ssh_multiplexing', false);
+set('git_tty', false);
 
 set('repository', 'https://github.com/maulana-alamsyah/CAPSTONE-PROJECT.git');
 
