@@ -4,7 +4,7 @@ namespace Deployer;
 
 require 'recipe/laravel.php';
 require 'contrib/npm.php';
-require 'contrib/rsync.php';
+/* require 'contrib/rsync.php'; */
 
 // Config
 
@@ -12,7 +12,7 @@ set('repository', 'git@github.com:maulana-alamsyah/CAPSTONE-PROJECT.git');
 set('application', 'CAPSTONE-PROJECT');
 set('ssh_multiplexing', true);  // Speed up deployment
 
-set('rsync_src', function () {
+/* set('rsync_src', function () {
     return __DIR__; // If your project isn't in the root, you'll need to change this.
 });
 
@@ -26,7 +26,7 @@ add('rsync', [
         '.github',
         'deploy.php',
     ],
-]);
+]); */
 
 // Set up a deployer task to copy secrets to the server.
 // Grabs the dotenv file from the github secret
